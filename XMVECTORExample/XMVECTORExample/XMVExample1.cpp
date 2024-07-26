@@ -1,10 +1,10 @@
-#include "Example.h"
+#include "main.h"
 
 // 연산자 오버로딩을 통해 FXMVECTOR를 출력
-ostream& operator<<(ostream& os, FXMVECTOR v)
+/*ostream& operator<< (ostream& os, XMVECTOR v)
 {
-	XMFLOAT3 dest;			 // XMVECTOR를 저장할 변수
-	XMStoreFloat3(&dest, v); // XMFLOAT3에 XMVECTOR를 저장하는 함수
+	XMFLOAT3 dest;
+	XMStoreFloat3(&dest, v);
 
 	os << "(" << dest.x << ", " << dest.y << ", " << dest.z << ") ";
 	return os;
@@ -85,4 +85,4 @@ int main()
 
 
 	return 0;
-}
+}*/
