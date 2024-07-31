@@ -24,6 +24,12 @@
     <ClCompile Include="XMVExample3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="XMMatrixExample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixExample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

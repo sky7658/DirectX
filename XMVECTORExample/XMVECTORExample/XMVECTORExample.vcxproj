@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MatrixExample.cpp" />
+    <ClCompile Include="XMMatrixExample.cpp" />
     <ClCompile Include="XMVExample1.cpp" />
     <ClCompile Include="XMVExample2.cpp" />
     <ClCompile Include="XMVExample3.cpp" />

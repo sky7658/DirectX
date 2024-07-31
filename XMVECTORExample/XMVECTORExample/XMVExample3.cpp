@@ -1,6 +1,6 @@
 #include "main.h"
 
-ostream& operator<< (ostream& os, XMVECTOR v)
+/*ostream& operator<< (ostream& os, XMVECTOR v)
 {
 	XMFLOAT4 dest;
 	XMStoreFloat4(&dest, v);
@@ -38,14 +38,18 @@ int main()
 	// 벡터의 각 성분을 루트 씌운 값으로 계산
 	cout << "XMVectorSqrt(u) = " << XMVectorSqrt(u) << '\n';
 
-	//
+	// 각 속성을 벡터의 x번째 값으로 표현
 	cout << "XMVectorSwizzle(u, 2, 2, 1, 3) = " << XMVectorSwizzle(u, 2, 2, 1, 3) << '\n';
 	cout << "XMVectorSwizzle(u, 2, 1, 0, 3) = " << XMVectorSwizzle(u, 2, 1, 0, 3) << '\n';
 
+	// 두 벡터의 곱을 계산
 	cout << "XMVectorMultiply(u, v) = " << XMVectorMultiply(u, v) << '\n';
+	// 벡터의 각 성분을 0.0f ~ 0.1f 범위로 표현
 	cout << "XMVectorSaturate(q) = " << XMVectorSaturate(q) << '\n';
+	// 두 벡터의 성분 중 젤 작은 값으로 표현
 	cout << "XMVectorMin(p, v) = " << XMVectorMin(p, v) << '\n';
+	// 두 벡터의 성분 중 젤 큰 값으로 표현
 	cout << "XMVectorMax(p, v) = " << XMVectorMax(p, v) << '\n';
 
 	return 0;
-}
+}*/
